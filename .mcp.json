@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "mamba-keepa-price-history": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@mambalabsdev/mcp-keepa-price-history"
+      ],
+      "env": {
+        "APIFY_TOKEN": "your-apify-token"
+      }
+    }
+  }
+}

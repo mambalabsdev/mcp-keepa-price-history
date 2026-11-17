@@ -1,0 +1,51 @@
+{
+  "name": "@mambalabsdev/mcp-keepa-price-history",
+  "version": "1.0.0",
+  "description": "MCP server for Keepa Price History. Amazon price and sales rank history per ASIN on your own Keepa API key. Runs on Apify. Clay-ready output.",
+  "type": "module",
+  "bin": {
+    "mcp-keepa-price-history": "./build/index.js"
+  },
+  "files": [
+    "build",
+    "README.md",
+    "LICENSE",
+    "SECURITY.md"
+  ],
+  "scripts": {
+    "build": "tsc && chmod +x build/index.js",
+    "test": "npm run build && node --test test/*.test.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "keepa",
+    "amazon price history",
+    "sales rank",
+    "bsr history",
+    "amazon price tracker",
+    "asin",
+    "apify",
+    "clay"
+  ],
+  "author": "Mamba Labs <labs@mambamindsetgrowth.com>",
+  "license": "MIT",
+  "homepage": "https://apify.com/mambalabs/keepa-price-history",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mambalabsdev/mcp-keepa-price-history"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.2",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^26.2.0",
+    "typescript": "5.9.3"
+  },
+  "mcpName": "com.mambabuilt/mcp-keepa-price-history"
+}
