@@ -1,7 +1,7 @@
 {
   "manifest_version": "0.3",
   "name": "mcp-keepa-price-history",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "MCP server for Keepa Price History. Amazon price and sales rank history per ASIN on your own Keepa API key. Runs on Apify. Clay-ready output.",
   "author": {
     "name": "Mamba Labs"
